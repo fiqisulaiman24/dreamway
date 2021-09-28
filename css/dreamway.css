@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+*{
+	padding:0;
+	margin:0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+body, html{
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+	font-family: 'Playfair Display',sans-serif;
+}
+
+p{
+	font-family: 'Mulish',sans-serif;
+}
+
+nav {
+	font-family: 'Mulish',sans-serif;
+	font-weight: 700;
+}
+
+/* Navbar */
+@media screen and (min-width: 1088px){
+	.navbar.is-spaced {
+	    padding: 1rem 2rem;
+	}
+}
+
+@media screen and (max-width: 1087px){
+	.navbar-menu {
+	    box-shadow: 0 16px 16px rgb(10 10 10 / 10%);
+	}
+}
+
+.navbar-end > .navbar-item, .navbar-link {
+    padding: 0.5rem 1rem;
+    color: #122140;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: #363636;
+}
+
+.dreamway__navbar__contact{
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: #00ad52;
+}
+
+.navbar.has-shadow {
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 10%);
+}
+
+
+
+/* Hero */
+.dreamway__hero{
+	background-image: url(../img/dreamway__hero__alt.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-bottom-left-radius: 150px;
+	text-align: center;
+	color: #fff;
+}
+
+.dreamway__hero .hero-body{
+	background-color: rgba(0,0,0,0.5);
+	border-bottom-left-radius: 150px;
+}
+
+.title.dreamway__hero__headline{
+	font-size: 72px;
+	color: #fff;
+}
+
+.subtitle.dreamway__hero__tagline{
+	color: #fff;
+	line-height: 1.5;
+}
+
+.button.dreamway__hero__cta{
+	font-family: 'Mulish',sans-serif;
+	font-weight: 600;
+	background-color: #00ad52;
+	border: 1px solid #00ad52;
+	color: #fff;
+	padding: 1.50rem 3rem 1.50rem 3rem;
+    border-radius: 0;
+}
+
+/* About Section */
+.section.dreamway__about__section{
+	padding:4rem 1.5rem;
+}
+
+.dreamway__about__section .container {
+	position: relative;
+}
+
+.dreamway__about__pattern{
+	width: 150px;
+    position: absolute;
+    bottom: 130px;
+    left: -110px;
+    z-index: -1;
+}
+
+.title.dreamway__about__title{
+	color: #012050;
+	font-weight: 800;
+	margin-top: 100px;
+}
+
+.subtitle.dreamway__about__subtitle{
+	color: #9399a3;
+	font-weight: 500;
+	line-height: 1.7;
+	font-size: 18px;
+}
+
+.button.dreamway__about__more{
+	font-family: 'Mulish',sans-serif;
+	font-weight: 600;
+	background-color: #00ad52;
+	border: 1px solid #00ad52;
+	color: #fff;
+	padding: 1.50rem 3rem 1.50rem 3rem;
+    border-radius: 0;
+}
+
+/* Service Section */
+.section.dreamway__service__section{
+	background-color: #002760;
+	text-align: center;
+	padding:4rem 1.5rem;
+}
+
+.title.dreamway__service__title{
+	color: #fff;
+	font-weight: 800;
+}
+
+.subtitle.dreamway__service__subtitle{
+	color: #fff;
+	font-weight: 400;
+	line-height: 1.7;
+	font-size: 15px;
+	margin-bottom: 35px;
+}
+
+/* gallery Section */
+.section.dreamway__gallery__section{
+	text-align: center;
+	padding:4rem 1.5rem;
+}
+
+.title.dreamway__gallery__title{
+	color: #002760;
+	font-weight: 800;
+	margin-bottom: 35px;
+}
+
+/* Partners Section*/
+.section.dreamway__partners__section{
+	background-color: #ecf3fc;
+	text-align: center;
+	padding:4rem 1.5rem;
+}
+
+.title.dreamway__partners__title{
+	color: #002760;
+	font-weight: 800;
+	margin-bottom: 35px;
+}
+
+.dreamway__partners__logo{
+	text-align: center;
+}
+
+.dreamway__partners__logo i {
+	font-size: 7em;
+	color: #002760;
+}
+
+/* Testimonials Section */
+.section.dreamway__testimonials__section{
+	text-align: center;
+	padding:4rem 1.5rem;
+}
+
+.title.dreamway__testimonials__title{
+	color: #002760;
+	font-weight: 800;
+	margin-bottom: 35px;
+}
+
+.box.dreamway__testimonials__box{
+	background-color: #ecf3fc;
+	margin-top: 5rem;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow: 0 0px 1px rgb(10 10 10 / 10%), 0 0 0 0px rgb(10 10 10 / 10%);
+}
+
+.avatar {
+	margin-top: -70px;
+	padding-bottom: 20px;
+}
+
+.avatar img {
+	padding: 5px;
+	width: 96px;
+	background: #002760;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+	box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+.dreamway__testimonials__name{
+	font-family: 'Mulish',sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	color: #002760;
+}
+
+.dreamway__testimonials__job{
+	font-family: 'Mulish',sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.content.dreamway__testimonials__desc{
+	margin-top: 15px;
+	position: relative;
+}
+
+.content.dreamway__testimonials__desc p {
+	font-weight: 700;
+	color: #002760;
+}
+
+.content.dreamway__testimonials__desc:before{
+	content: "\efcd";
+	font-family: 'Icofont',sans-serif;
+	font-size: 55px;
+	color: grey;
+	opacity: 0.1;
+	position: absolute;
+	left: -5px;
+	top: -35px;
+}
+
+/* Contact Section */
+.hero.dreamway__contact__hero{
+	text-align: center;
+	padding:4rem 1.5rem;
+}
+
+.dreamway__contact__hero .container {
+	position: relative;
+}
+
+.dreamway__contact__pattern__primary{
+	width: 150px;
+    position: absolute;
+    top: -115px;
+    left: -120px;
+}
+
+.dreamway__contact__pattern__second{
+	width: 150px;
+    position: absolute;
+    bottom: -115px;
+    right: -120px;
+}
+
+.hero.dreamway__contact__hero:before{
+	 width: 16px;
+    content: " ";
+    background-image: url('../img/bangunan-1.jpg');
+    position: absolute;
+    left: -16px;
+    top: -6px;
+    height:20px;
+}
+
+.title.dreamway__contact__title{
+	color: #002760;
+	font-weight: 800;
+	margin-bottom: 35px;
+}
