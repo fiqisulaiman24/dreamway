@@ -42,6 +42,18 @@ nav {
 	}
 }
 
+.navbar-item.dreamway__logo{
+	font-family: 'Scheherazade New', serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #002760;
+	font-size: 24px;
+}
+
+.navbar-item.dreamway__logo:hover{
+	color: #002760;
+}
+
 .navbar-end > .navbar-item, .navbar-link {
     padding: 0.5rem 1rem;
     color: #122140;
@@ -115,7 +127,7 @@ nav {
 }
 
 .subtitle.dreamway__about__subtitle{
-	color: #9399a3;
+	color: #afafaf;
 	font-weight: 500;
 	line-height: 1.7;
 	font-size: 18px;
@@ -145,10 +157,16 @@ nav {
 
 .subtitle.dreamway__service__subtitle{
 	color: #fff;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 1.7;
 	font-size: 15px;
 	margin-bottom: 35px;
+}
+
+.dreamway__service__image{
+	border-radius: 20px;
+    filter: drop-shadow(0px 15px 15px rgba(244, 247, 249, 1));
+	-webkit-filter: drop-shadow(0px 15px 15px rgba(244, 247, 249, 1));
 }
 
 /* gallery Section */
@@ -160,6 +178,13 @@ nav {
 .title.dreamway__gallery__title{
 	color: #002760;
 	font-weight: 800;
+}
+
+.subtitle.dreamway__gallery__subtitle{
+	color: #002760;
+	font-weight: 500;
+	line-height: 1.7;
+	font-size: 15px;
 	margin-bottom: 35px;
 }
 
@@ -173,6 +198,14 @@ nav {
 .title.dreamway__partners__title{
 	color: #002760;
 	font-weight: 800;
+	margin-bottom: 35px;
+}
+
+.subtitle.dreamway__partners__subtitle{
+	color: #002760;
+	font-weight: 500;
+	line-height: 1.7;
+	font-size: 15px;
 	margin-bottom: 35px;
 }
 
@@ -195,6 +228,13 @@ nav {
 	color: #002760;
 	font-weight: 800;
 	margin-bottom: 35px;
+}
+
+.subtitle.dreamway__testimonials__subtitle{
+	color: #002760;
+	font-weight: 500;
+	line-height: 1.7;
+	font-size: 15px;
 }
 
 .box.dreamway__testimonials__box{
@@ -268,4 +308,52 @@ nav {
 	color: #002760;
 	font-weight: 800;
 	margin-bottom: 35px;
+}
+
+/* Footer */
+.footer.dreamway__footer{
+	background-color: #002760;
+	padding:3rem 1.5rem 1.5rem;
+}
+
+.veloris__foot__text{
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.veloris__foot__title{
+	color: #fff;
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.veloris__foot__link{
+	font-family: 'Mulish',sans-serif;
+	color: #afafaf;
+	font-size: 15px;
+	margin-top: 1rem;
+	line-height: 2;
+}
+
+.veloris__foot__copy{
+	font-family: 'Mulish',sans-serif;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 1rem;
+	line-height: 2;
+}
+
+.veloris__social__link{
+	margin-top: 1rem;
+}
+
+.tag.veloris__social{
+	background: transparent;
+	padding-left: 0;
+	padding-right: 1rem;
+}
+
+.tag.veloris__social i {
+	color: #fff;
+	font-size: 18px;
 }

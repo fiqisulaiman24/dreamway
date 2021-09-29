@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +11,17 @@
     <link rel="stylesheet" href="css/dreamway.css">
     <!-- Icofont -->
     <link rel="stylesheet" href="lib/icofont/icofont.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar is-spaced has-shadow" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-spaced has-shadow is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item dreamway__logo" href="index.html">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            Dreamway
           </a>
 
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -101,7 +105,7 @@
     <section class="hero is-fullheight dreamway__hero">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title dreamway__hero__headline is-spaced is-size-1-mobile">
+          <h1 class="title dreamway__hero__headline is-spaced">
             Quality Is Our Trademark
           </h1>
 
@@ -122,7 +126,7 @@
         <div class="columns is-multiline">
           <div class="column is-6">
             <h2 class="title is-spaced dreamway__about__title">
-              Premier Landscape Design<br class="is-hidden-mobile">Contractor
+              Premier Landscape Design<br class="is-hidden-mobile"> Contractor
             </h2>
 
             <p class="subtitle dreamway__about__subtitle">
@@ -139,18 +143,18 @@
           <div class="column is-6">
             <div class="columns is-multiline is-mobile">
               <div class="column is-12">
-                <figure class="image is-5by3">
-                  <img src="https://bulma.io/images/placeholders/256x256.png">
+                <figure class="image is-3by2">
+                  <img src="img/house.jpg" class="dreamway__service__image">
                 </figure>
               </div>
               <div class="column is-6">
-                <figure class="image is-5by4">
-                  <img src="https://bulma.io/images/placeholders/256x256.png">
+                <figure class="image is-4by3">
+                  <img src="img/pools.jpg" class="dreamway__service__image">
                 </figure>
               </div>
               <div class="column is-6">
                 <figure class="image is-5by3">
-                  <img src="https://bulma.io/images/placeholders/256x256.png">
+                  <img src="img/decor.jpg" class="dreamway__service__image">
                 </figure>
               </div>
             </div>
@@ -197,6 +201,10 @@
         <h2 class="title is-spaced dreamway__gallery__title">
           Gallery
         </h2>
+        <p class="subtitle dreamway__gallery__subtitle">
+          A Gallery how we build your dream building<br>
+          and any others furniture.
+        </p>
 
         <div class="columns is-multiline is-gapless">
           <div class="column is-6">
@@ -213,13 +221,13 @@
 
           <div class="column is-6">
             <figure class="image is-3by2">
-              <img src="img/12.jpg">
+              <img src="img/dining.jpg">
             </figure>
           </div>
 
           <div class="column is-6">
             <figure class="image is-3by2">
-              <img src="img/kuli-8.jpg">
+              <img src="img/living.jpg">
             </figure>
           </div>
 
@@ -237,13 +245,13 @@
 
           <div class="column is-6">
             <figure class="image is-3by2">
-              <img src="img/12.jpg">
+              <img src="img/bedroom.jpg">
             </figure>
           </div>
 
           <div class="column is-6">
             <figure class="image is-3by2">
-              <img src="img/kuli-8.jpg">
+              <img src="img/apart.jpg">
             </figure>
           </div>
         </div>
@@ -255,6 +263,10 @@
         <h2 class="title dreamway__partners__title">
           Our Partners
         </h2>
+
+        <p class="subtitle dreamway__partners__subtitle">
+          Here's our respected partners when we works
+        </p>
 
         <div class="columns is-multiline dreamway__partners__logo">
           <div class="column is-3">
@@ -282,6 +294,10 @@
           Testimonials
         </h2>
 
+        <p class="subtitle dreamway__partners__subtitle">
+          What they say about our Drewamway.
+        </p>
+
         <div class="columns is-multiline">
           <div class="column is-4">
             <div class="box dreamway__testimonials__box">
@@ -298,7 +314,7 @@
 
               <div class="content dreamway__testimonials__desc">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  Dreamway is dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco.
                 </p>
@@ -321,7 +337,7 @@
 
               <div class="content dreamway__testimonials__desc">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  Lorem ipsum dolor sit amet, Dreamway adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco.
                 </p>
@@ -345,7 +361,7 @@
               <div class="content dreamway__testimonials__desc">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  tempor incididunt ut Dreamway et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco.
                 </p>
               </div>
@@ -370,8 +386,53 @@
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="container"></div>
+    <footer class="footer dreamway__footer">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-3">
+            <h4 class="veloris__foot__title">Contact Us</h4>
+            <ul class="veloris__foot__link">
+              <li>hello@company.com</li>
+              <li>+62 896 6311 2396</li>
+            </ul>
+          </div>
+
+          <div class="column is-3">
+            <h4 class="veloris__foot__title">Links</h4>
+            <ul class="veloris__foot__link">
+              <li>About Us</li>
+              <li>Gallery</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+
+          <div class="column is-3">
+            <h4 class="veloris__foot__title">Navigate</h4>
+            <ul class="veloris__foot__link">
+              <li>Services</li>
+              <li>Pools</li>
+              <li>Privacy Policy</li>
+              <li>Disclaimer</li>
+            </ul>
+          </div>
+
+          <div class="column is-3">
+            <h4 class="veloris__foot__title">Office Hour</h4>
+            <ul class="veloris__foot__link">
+              <p>
+                Monday to Friday 9:00am - 4:00pm<br>
+                Saturday 9:00am - 12.00pm (noon)<br>
+                Sunday closed
+              </p>
+            </ul>
+          </div>
+        </div>
+        <div class="veloris__foot__text">
+          <span class="veloris__foot__copy">
+            &copy; Copyright 2021 DREAMWAY. All Right Reserved
+          </span>
+        </div>
+      </div>
     </footer>
     <!-- Jquery -->
     <script type="text/javascript" src="lib/jquery.min.js"></script>
