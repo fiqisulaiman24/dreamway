@@ -9,6 +9,7 @@
 
 body, html{
 	height: 100%;
+	width: 100%;
 }
 
 h1,
@@ -105,14 +106,6 @@ nav {
 
 .dreamway__about__section .container {
 	position: relative;
-}
-
-.dreamway__about__pattern{
-	width: 150px;
-    position: absolute;
-    bottom: 130px;
-    left: -110px;
-    z-index: -1;
 }
 
 .title.dreamway__about__title{
@@ -269,30 +262,6 @@ nav {
 
 .dreamway__contact__hero .container {
 	position: relative;
-}
-
-.dreamway__contact__pattern__primary{
-	width: 150px;
-    position: absolute;
-    top: -115px;
-    left: -120px;
-}
-
-.dreamway__contact__pattern__second{
-	width: 150px;
-    position: absolute;
-    bottom: -115px;
-    right: -120px;
-}
-
-.hero.dreamway__contact__hero:before{
-	 width: 16px;
-    content: " ";
-    background-image: url('../img/bangunan-1.jpg');
-    position: absolute;
-    left: -16px;
-    top: -6px;
-    height:20px;
 }
 
 .title.dreamway__contact__title{
